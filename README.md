@@ -35,3 +35,17 @@ z# Command Line Definitions
 ## git config --global core.editor <editor of choice> = set your global editor (nano)
 
 ## git commit --amend -m "<new message>" = changes the commit message of the last commit to the new message provide
+
+## git checkout-- <filename> = removes any changes made to the file in working directory and reverts its status back from mod to unmod. (undoing changes made to file)
+
+## git reset HEAD <filename> = moves the staged file from the Staging Area to the Working directory
+
+## git branch <branchname> = create a new branch with the given name
+
+## git checkout <branchname> = switch to new branch
+
+## git checkout -b <branchname> = create new branch and switch to it
+
+## git branch -d <branchname> = delete existing branch with given name
+
+
