@@ -1,8 +1,10 @@
-# Command Line Definitions
+z# Command Line Definitions
 
 ## cd - change directory
 
 ## ls - list directory contents
+
+## ls -a - shows visible and hidden files/directories
 
 ## man <command> - displays manual for given command
 
@@ -12,6 +14,10 @@
 
 ## touch <filename> - create file with given name
 
+## cd .. - move up a directory
+
+## cd ~ - home
+
 # Git Definitions
 
 ## git init - initialize an empty repository
@@ -19,3 +25,13 @@
 ## git add <filename> - moves a modified file to the staging area
 
 ## git commit -m "<message>" - moves staged files to the Git Directory and labels the commit with a message for other/future developers
+
+## git config --global user.name = change or set global username
+
+## git config --global user.email = change or set global email address
+
+## git config --global --list = dispays global settings
+
+## git config --global core.editor <editor of choice> = set your global editor (nano)
+
+## git commit --amend -m "<new message>" = changes the commit message of the last commit to the new message provide
