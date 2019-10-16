@@ -48,4 +48,14 @@ z# Command Line Definitions
 
 ## git branch -d <branchname> = delete existing branch with given name
 
+## git branch -m <oldname> <newname> = changes branch name
 
+## git merge <branchname> = merges the histories of two branches onto the alpha branch
+
+## git branch = lists all branches and the one you're currently on
+
+## git rebase = keeps history clean, moves history onto another branch (only use if you have been working locally not on a remote repository.)
+
+## Merge Steps
+1. checkout the branch we want to merge changes into.
+2. git merge <branchWithChanges>
